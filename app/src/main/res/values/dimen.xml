@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Text size MenuActivity -->
+        <!-- MenuActivity -->
+    <dimen name="size_btnSettings_MenuActivity">23dp</dimen>
+
+    <!-- Margin size -->
+        <!-- MenuActivity -->
+    <dimen name="marginTop_btnSettings_MenuActivity">50dp</dimen>
+
+    <!--Padding size -->
+        <!-- MenuActivity -->
+    <dimen name="paddingRight_btnSettings_MenuActivity">15dp</dimen>
+    <dimen name="paddingLeft_btnSettings_MenuActivity">15dp</dimen>
+
+</resources>
