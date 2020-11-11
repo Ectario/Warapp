@@ -10,29 +10,29 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
-        android:paddingRight="15dp"
-        android:paddingLeft="15dp"
+        android:layout_marginTop="@dimen/marginTop_btnSettings_MenuActivity"
+        android:paddingRight="@dimen/padding_MenuActivity"
+        android:paddingLeft="@dimen/padding_MenuActivity"
         android:layout_centerInParent="true"
         android:background="@drawable/custom_button_1"
         android:text="Settings"
         android:textColor="@color/white"
-        android:textSize="23dp" />
+        android:textSize="@dimen/size_btnSettings_MenuActivity" />
 
     <Button
         android:id="@+id/buttonPlay"
         android:layout_above="@id/buttonSettings"
-        android:paddingRight="15dp"
-        android:paddingLeft="15dp"
+        android:paddingRight="@dimen/padding_MenuActivity"
+        android:paddingLeft="@dimen/padding_MenuActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerInParent="true"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="@dimen/marginBottom_btnPlay_MenuActivity"
         android:background="@drawable/custom_button_1"
         android:text="Play"
         android:textColor="@color/white"
-        android:textSize="80dp" />
+        android:textSize="@dimen/size_btnPlay_MenuActivity" />
 
 
     <Button
@@ -41,10 +41,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="@dimen/marginTop_btnMute_MenuActivity"
         android:background="@drawable/custom_button_3"
-        android:padding="15dp"
+        android:padding="@dimen/padding_MenuActivity"
         android:text="Unmute"
-        android:textSize="23dp" />
+        android:textSize="@dimen/size_btnMute_MenuActivity" />
 
 </RelativeLayout>
