@@ -2,9 +2,9 @@
 <resources>
     <!-- Text size -->
         <!-- MenuActivity -->
-    <dimen name="size_btnSettings_MenuActivity">23dp</dimen>
-    <dimen name="size_btnPlay_MenuActivity">80dp</dimen>
-    <dimen name="size_btnMute_MenuActivity">23dp</dimen>
+    <dimen name="size_btnSettings_MenuActivity">13sp</dimen>
+    <dimen name="size_btnPlay_MenuActivity">30sp</dimen>
+    <dimen name="size_btnMute_MenuActivity">13sp</dimen>
 
     <!-- Margin size -->
         <!-- MenuActivity -->

@@ -46,7 +46,7 @@ class MenuActivity : AppCompatActivity() {
             YoYo.with(Techniques.FlipInX)
                 .onEnd {
                     if(!isOtherActivityOpen){
-                        var newIntent = Intent(applicationContext, SettingsActivity::class.java)
+                        var newIntent = Intent(applicationContext, GameActivity::class.java)
                         startActivity(newIntent)
                         isOtherActivityOpen = true
                     }
