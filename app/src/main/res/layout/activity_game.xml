@@ -13,5 +13,9 @@
         android:textSize="10dp"
         android:textColor="#000000"
     />
+    <com.example.engine.GameView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
 
 </RelativeLayout>
