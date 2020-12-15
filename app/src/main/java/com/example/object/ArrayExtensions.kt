@@ -1,5 +1,7 @@
-package com.example.utils
+package com.example.`object`
 
+public fun array2dOfTile(height: Int, width: Int): Array<Array<Tile?>>
+        = Array(height) { Array(width) {null} }
 public fun array2dOfInt(height: Int, width: Int): Array<IntArray>
         = Array(height) { IntArray(width) }
 public fun array2dOfLong(height: Int, width: Int): Array<LongArray>
